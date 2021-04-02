@@ -19,9 +19,9 @@ class PrestaPay extends PaymentModule
         $this->currencies             = true;
         $this->currencies_mode        = 'checkbox';
         $this->bootstrap              = true;
-        $this->displayName            = 'PrestaPay';
-        $this->description            = 'Sample Payment module developed for learning purposes.';
-        $this->confirmUninstall       = 'Are you sure you want to uninstall this module?';
+        $this->displayName            = $this->l('PrestaPay');
+        $this->description            = $this->l('Sample Payment module developed for learning purposes.');
+        $this->confirmUninstall       = $this->l('Are you sure you want to uninstall this module?');
         $this->ps_versions_compliancy = array('min' => '1.7.0', 'max' => _PS_VERSION_);
  
         parent::__construct();
