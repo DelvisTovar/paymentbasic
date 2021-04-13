@@ -14,7 +14,7 @@ class PrestaPay extends PaymentModule
         $this->name                   = 'prestapay';
         $this->tab                    = 'payments_gateways';
         $this->version                = '1.0';
-        $this->author                 = 'Andresa Martins';
+        $this->author                 = 'Delvis Tovar';
         $this->controllers            = array('payment', 'validation');
         $this->currencies             = true;
         $this->currencies_mode        = 'checkbox';
